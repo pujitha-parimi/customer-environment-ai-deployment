@@ -1,0 +1,19 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Test and cache files
+.pytest_cache/
+.coverage
+# Docker deployment files (not included in this submission)
+Dockerfile
+.dockerignore
+docker-compose*.yml
+deploy/

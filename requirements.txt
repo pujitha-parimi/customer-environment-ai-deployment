@@ -1,0 +1,6 @@
+# Runtime dependencies (openai-agents removed: it was never imported)
+google-genai>=1.0,<2
+python-dotenv>=1.0,<2
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+prometheus-client>=0.20,<1
